@@ -1,0 +1,23 @@
+NAME : graph2.hcp
+COMMENT : Example graph with 10 vertices.
+TYPE : HCP
+DIMENSION : 10
+EDGE_DATA_FORMAT : EDGE_LIST
+EDGE_DATA_SECTION
+1 2
+1 5
+1 10
+2 3
+2 7
+3 4
+3 9
+4 6
+4 8
+5 6
+5 7
+6 9
+7 10
+8 9
+8 10
+-1
+EOF
