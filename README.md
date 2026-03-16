@@ -105,16 +105,3 @@ Controls how the base relational graph is triangulated into a chordal graph. All
 | `t10` | Minimum fill, then random (Kjaerulff's "minimum fill") |
 | `t11` | Minimum additional triangles, then smallest node index |
 | `t12` | Minimum additional triangles, then random |
-
-
-## Performance
-
-Results from the paper on random graphs (phase-transition region, 100 graphs per suite):
-
-| Strategy | Avg speedup vs baseline |
-|---|---|
-| Half-variable elimination only | ~10× |
-| + Minimal transitivity (t4, f4) | ~100× |
-| + Inverse transitivity (t9, f1) | ~1000× |
-
-Individual speedups reach up to 4 orders of magnitude on satisfiable structured graphs.
