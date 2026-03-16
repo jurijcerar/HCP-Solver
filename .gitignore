@@ -1,2 +1,5 @@
-Paper.pdf
-Project_Introduction.pdf
+Examples/
+/not_needed
+/.venv
+/__pycache__
+*.7z
